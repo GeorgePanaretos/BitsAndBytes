@@ -7,10 +7,7 @@ Welcome to the documentation for the **BitsAndBytes** repository! This repositor
 - [😄 Introduction](#-introduction)
 - [📁 File Structure](#-file-structure)
 - [📚 Algorithms](#-algorithms)
-- [💡 Tips and Tricks](#-tips-and-tricks)
-- [📖 Resources](#-resources)
 - [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
 
 ## 😄 Introduction
 
@@ -64,15 +61,3 @@ The `algorithms` directory contains various sorting and searching algorithms, am
   - [Linear Search](algorithms/searching/linear_search.py)
   - [Binary Search](algorithms/searching/binary_search.py)
   - ...
-
-Feel free to explore each algorithm for detailed explanations and implementations.
-
-## 💡 Tips and Tricks
-
-The `tips_and_tricks` directory contains helpful tips and tricks related to programming and computer science. Here are some of the available resources:
-
-- [Debugging Tips](tips_and_tricks/debugging.md)
-- [Performance Optimization](tips_and_tricks/performance.md)
-- ...
-
-Feel free to check out each resource to enhance your coding skills and improve your
