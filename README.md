@@ -7,7 +7,6 @@ Welcome to the documentation for the **BitsAndBytes** repository! This repositor
 - [😄 Introduction](#-introduction)
 - [📁 File Structure](#-file-structure)
 - [📚 Algorithms](#-algorithms)
-- [🌐 Networking](#-networking)
 - [💡 Tips and Tricks](#-tips-and-tricks)
 - [📖 Resources](#-resources)
 - [🤝 Contributing](#-contributing)
@@ -67,22 +66,6 @@ The `algorithms` directory contains various sorting and searching algorithms, am
   - ...
 
 Feel free to explore each algorithm for detailed explanations and implementations.
-
-## 🌐 Networking
-
-The `networking` directory focuses on networking-related code snippets. It covers both TCP and UDP protocols. Here are some of the available networking resources:
-
-- **TCP**:
-  - [TCP Client](networking/tcp/client.py)
-  - [TCP Server](networking/tcp/server.py)
-  - ...
-
-- **UDP**:
-  - [UDP Client](networking/udp/client.py)
-  - [UDP Server](networking/udp/server.py)
-  - ...
-
-Explore each networking category to learn more about the specific implementations.
 
 ## 💡 Tips and Tricks
 
