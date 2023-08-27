@@ -1,5 +1,8 @@
 package ArrayManipulation.TwoSumTarget;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class TwoSumTarget {
     public static boolean hasTwoSum(int[] nums, int k) {
         int n = nums.length;
@@ -10,6 +13,20 @@ public class TwoSumTarget {
                     return true;
                 }
             }
+        }
+
+        return false;
+    }
+
+    public static boolean hashTwoSum(int[] nums, int k) {
+        Set<Integer> seenNumbers = new HashSet<>();
+
+        for (int num : nums) {
+            int diff = k - num;
+            if (seenNumbers.contains(diff)) {
+                return true;
+            }
+            seenNumbers.add(num);
         }
 
         return false;
