@@ -8,7 +8,13 @@ class PalindromeTest {
     @Test
     void isPalindrome() {
         assertTrue(Palindrome.isPalindrome("level"));
-//        assertEquals(true, Palindrome.isPalindrome("Level")); lower upper case failure
+        assertTrue(Palindrome.isPalindrome("Level"));
         assertFalse(Palindrome.isPalindrome("Malakas"));
+    }
+
+    @Test
+    void Palindrome(){
+        assertTrue(Palindrome.cleanPalindrome("Level"));
+        assertTrue(Palindrome.cleanPalindrome("A man, a plan, a canal. Panama."));
     }
 }
