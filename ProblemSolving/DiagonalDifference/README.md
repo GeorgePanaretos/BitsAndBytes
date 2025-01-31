@@ -1,5 +1,3 @@
-Here’s the markdown version with only the **problem description**, without the solution implementation:
-
 ```markdown
 # Diagonal Difference
 
